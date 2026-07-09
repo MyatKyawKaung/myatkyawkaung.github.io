@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Myat Kyaw Kaung — SOC, DFIR, Malware Analysis, Threat Hunting, CTF walkthroughs, defensive projects, and investigation cheatsheets." />
+  <meta name="author" content="Myat Kyaw Kaung" />
+  <meta property="og:title" content="Myat Kyaw Kaung | Defensive Cybersecurity Portfolio" />
+  <meta property="og:description" content="SOC operations, DFIR, malware analysis, threat hunting, CTF walkthroughs, projects, and investigation cheatsheets." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#00f5c8" />
+  <title>Myat Kyaw Kaung | Defensive Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanline" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark">MK</span>
+        <span class="brand-text">Myat Kyaw Kaung</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" data-nav-links>
+        <a href="#walkthroughs">CTF Walkthroughs</a>
+        <a href="#projects">Projects</a>
+        <a href="#cheatsheets">Cheatsheets</a>
+        <a href="#lab-notes">Lab Notes</a>
+        <a href="#contact" class="nav-cta">Connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse-dot"></span> Defensive Security Portfolio</p>
+        <h1>SOC-minded investigations, DFIR notes, malware triage, and threat hunting knowledge.</h1>
+        <p class="hero-lede">
+          I’m <strong>Myat Kyaw Kaung</strong>, a cybersecurity practitioner focused on MDR, SOC operations,
+          incident investigation, network traffic analysis, cloud monitoring, and practical detection workflows.
+          This site is my public knowledge base for walkthroughs, defensive projects, and analyst-ready cheatsheets.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#walkthroughs">Explore Content</a>
+          <a class="btn btn-secondary" href="https://github.com/MyatKyawKaung" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+        <div class="hero-tags" aria-label="Focus areas">
+          <span>SOC</span><span>DFIR</span><span>Malware Analysis</span><span>Threat Hunting</span><span>Network Traffic Analysis</span>
+        </div>
+      </div>
+
+      <aside class="terminal-card" aria-label="Analyst profile terminal">
+        <div class="terminal-topbar"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+          <p><span class="prompt">kai@portfolio</span>:~$ whoami</p>
+          <p class="output">Myat Kyaw Kaung — SOC Analyst / MDR & DFIR Practitioner</p>
+          <p><span class="prompt">kai@portfolio</span>:~$ mission --focus</p>
+          <ul class="output-list">
+            <li>Transform raw telemetry into clear findings</li>
+            <li>Document repeatable investigation workflows</li>
+            <li>Build defensive labs and detection logic</li>
+            <li>Share practical CTF and malware analysis notes</li>
+          </ul>
+          <p><span class="prompt">kai@portfolio</span>:~$ status</p>
+          <p class="output status-line">Publishing practical blue-team content soon<span class="cursor">_</span></p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-shell metrics-grid" aria-label="Portfolio pillars">
+      <article>
+        <span class="metric-number">01</span>
+        <h2>Investigation First</h2>
+        <p>Focused on evidence, timeline reconstruction, affected assets, detection logic, and clear remediation guidance.</p>
+      </article>
+      <article>
+        <span class="metric-number">02</span>
+        <h2>Defensive Depth</h2>
+        <p>Content centers on SOC, MDR, DFIR, malware triage, threat hunting, network evidence, SIEM, and cloud monitoring.</p>
+      </article>
+      <article>
+        <span class="metric-number">03</span>
+        <h2>Practical Notes</h2>
+        <p>Cheatsheets and walkthroughs are written for real analysts who need fast commands, context, and repeatable steps.</p>
+      </article>
+    </section>
+
+    <section class="section-shell split-section" id="walkthroughs">
+      <div class="section-heading">
+        <p class="eyebrow">CTF Walkthroughs</p>
+        <h2>Writeups with a blue-team angle.</h2>
+        <p>Future walkthroughs will focus not only on exploitation steps, but also what defenders should log, detect, hunt, and validate afterward.</p>
+      </div>
+      <div class="content-grid three-col">
+        <article class="content-card featured-card">
+          <div class="card-meta"><span>Coming Soon</span><span>DFIR Lens</span></div>
+          <h3>Windows Compromise Walkthrough</h3>
+          <p>Planned walkthrough covering initial access evidence, suspicious process chains, persistence indicators, and Windows event log validation.</p>
+          <a href="#contact" aria-label="Suggest a Windows compromise walkthrough topic">Suggest a Topic</a>
+        </article>
+        <article class="content-card">
+          <div class="card-meta"><span>Coming Soon</span><span>Network</span></div>
+          <h3>PCAP Investigation Challenge</h3>
+          <p>Packet-level investigation notes using Wireshark, Zeek, Suricata, and Zui to identify suspicious traffic and likely attack flow.</p>
+          <a href="#projects">Related Project</a>
+        </article>
+        <article class="content-card">
+          <div class="card-meta"><span>Coming Soon</span><span>Malware</span></div>
+          <h3>Malware Triage Lab</h3>
+          <p>Static-first triage workflow covering file metadata, strings, behavior clues, hash reputation, and safe reporting language.</p>
+          <a href="#cheatsheets">See Cheatsheets</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="projects">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Personal Projects</p>
+        <h2>Defensive labs, detection practice, and analyst tooling.</h2>
+      </div>
+      <div class="project-board">
+        <a class="project-card" href="https://github.com/MyatKyawKaung/Zui_Cheatsheet" target="_blank" rel="noreferrer">
+          <span class="project-area">Network Traffic Analysis</span>
+          <h3>Zui Cheatsheet</h3>
+          <p>Defensive Zui, Zeek, Suricata, and Zed queries for PCAP investigation and network evidence review.</p>
+        </a>
+        <a class="project-card" href="https://github.com/MyatKyawKaung/SIEM-Lab" target="_blank" rel="noreferrer">
+          <span class="project-area">SIEM / Detection</span>
+          <h3>SIEM Lab</h3>
+          <p>SOC home lab exercises, alert review scenarios, and practical investigation workflows.</p>
+        </a>
+        <a class="project-card" href="https://github.com/MyatKyawKaung/Azure-Security-Operations-Lab" target="_blank" rel="noreferrer">
+          <span class="project-area">Cloud Security</span>
+          <h3>Azure Security Operations Lab</h3>
+          <p>Microsoft Sentinel and Azure monitoring practice for cloud-native security operations.</p>
+        </a>
+        <a class="project-card" href="https://github.com/MyatKyawKaung/Network-Traffic-Analysis" target="_blank" rel="noreferrer">
+          <span class="project-area">PCAP Analysis</span>
+          <h3>Network Traffic Analysis</h3>
+          <p>Wireshark-centered network investigation exercises and traffic analysis notes.</p>
+        </a>
+        <a class="project-card" href="https://github.com/MyatKyawKaung/Memory-Forensics" target="_blank" rel="noreferrer">
+          <span class="project-area">DFIR</span>
+          <h3>Memory Forensics</h3>
+          <p>Memory artifact investigation, malware-related forensic notes, and analysis practice.</p>
+        </a>
+        <a class="project-card" href="https://github.com/MyatKyawKaung/Scripts" target="_blank" rel="noreferrer">
+          <span class="project-area">Automation</span>
+          <h3>Security Scripts</h3>
+          <p>Reusable automation scripts for analyst tasks, operations support, and security workflows.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-shell split-section" id="cheatsheets">
+      <div class="section-heading">
+        <p class="eyebrow">Investigation Cheatsheets</p>
+        <h2>Fast references for analysts under pressure.</h2>
+        <p>Cheatsheets will be organized around investigation questions: what happened, which host was affected, how it was detected, and what should be validated next.</p>
+      </div>
+      <div class="cheatsheet-stack">
+        <article class="cheatsheet-row">
+          <span>01</span>
+          <div>
+            <h3>Zui / Zeek Query Patterns</h3>
+            <p>Connection review, DNS anomalies, HTTP metadata, file extraction, beaconing checks, and Suricata correlation.</p>
+          </div>
+          <a href="https://github.com/MyatKyawKaung/Zui_Cheatsheet" target="_blank" rel="noreferrer">Open</a>
+        </article>
+        <article class="cheatsheet-row">
+          <span>02</span>
+          <div>
+            <h3>Windows Event Triage</h3>
+            <p>Authentication events, process creation, service installation, PowerShell activity, scheduled tasks, and persistence checks.</p>
+          </div>
+          <a href="#contact">Planned</a>
+        </article>
+        <article class="cheatsheet-row">
+          <span>03</span>
+          <div>
+            <h3>Malware Static Triage</h3>
+            <p>Safe file handling, hashes, strings, imports, entropy, signatures, reputation lookup, and cautious verdict language.</p>
+          </div>
+          <a href="#contact">Planned</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell timeline-section" id="lab-notes">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Lab Notes Roadmap</p>
+        <h2>What this site will publish next.</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <span class="timeline-dot"></span>
+          <h3>SOC Alert Analysis</h3>
+          <p>Clear alert writeups with host information, evidence, impact, recommendation, and conclusion.</p>
+        </article>
+        <article>
+          <span class="timeline-dot"></span>
+          <h3>Threat Hunting Queries</h3>
+          <p>Hunting logic for suspicious authentication, command execution, DNS, endpoint, and cloud activity.</p>
+        </article>
+        <article>
+          <span class="timeline-dot"></span>
+          <h3>Malware & DFIR Reports</h3>
+          <p>Static analysis notes, containment status, MITRE mapping, and defensive recommendations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Connect</p>
+        <h2>Let’s share practical defensive security knowledge.</h2>
+        <p>If you want to discuss SOC workflows, DFIR, malware analysis, traffic analysis, or threat hunting content, reach out.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="mailto:myatkyawkaung2204@gmail.com">Email Me</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/mkkaung/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn btn-secondary" href="https://github.com/MyatKyawKaung" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Myat Kyaw Kaung. Built for defensive cybersecurity notes and analyst workflows.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
